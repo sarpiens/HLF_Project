@@ -295,6 +295,7 @@ class Jugador():
     caracter_disparo_acierto:str = "X"
     caracter_disparo_agua:str = "A"
     tablero_tamaño:int = 10
+    lista_barcos:list = []
     n_barcos_hundidos:int = 0
 
     #Iniciar constructor
@@ -487,7 +488,7 @@ class Jugador():
         """
         Método colocar_barcos. Este método usa el atributo dim_barcos junto con los métodos
         crear_barco y colocar_barco, para generar y colocar todos los barcos en el tablero del
-        jugador. Además, genera un atributo lista_barcos para el jugador con los resultados.  
+        jugador. Además, actualiza el atributo lista_barcos para el jugador con los resultados.  
         """
         lista_barcos = []
 
