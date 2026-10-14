@@ -25,31 +25,31 @@ En cualquier caso, el programa generará de forma aleatoria un total de 6 barcos
 
 - **Lenguaje:** Python
 Este proyecto está desarrollado en **Python 3.12.10**. El juego utiliza varias librerías integradas en la biblioteca estándar de Python, por lo que **no requieren instalación adicional**:
-* `os` (Interacción con el sistema)
-* `subprocess` (Gestión de procesos del sistema)
-* `random` (Generación de mecánicas aleatorias)
-* `itertools` (Optimización de iteradores)
+   * `os` (Interacción con el sistema)
+   * `subprocess` (Gestión de procesos del sistema)
+   * `random` (Generación de mecánicas aleatorias)
+   * `itertools` (Optimización de iteradores)
 
 - **Librerías Externas:** 
 Para que el proyecto funcione correctamente, es necesario instalar las siguientes librerías de terceros:
-* **NumPy** (Para el manejo eficiente de matrices y cálculos del juego)
+   * `NumPy` (Para el manejo eficiente de matrices y cálculos del juego)
 
 Puedes instalarla automáticamente ejecutando el siguiente comando en tu terminal:
-   ```bash
-   pip install numpy
-   ```
+```bash
+pip install numpy
+```
 
 ## 💻 Instalación y Ejecución
 
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/sarpiens/HLF_Project.git
-   ```
+```bash
+git clone https://github.com/sarpiens/HLF_Project.git
+```
 2. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 3. Ejecuta el juego:
-   ```bash
-   python3 main.py
-   ```
+```bash
+python3 main.py
+```
