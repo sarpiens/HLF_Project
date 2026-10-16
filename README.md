@@ -20,10 +20,10 @@ El programa presenta dos modos de juego:
 - **Modo de Juego para 2 Jugadores**. En este caso, dos jugadores pueden enfrentarse mediante un sistema que va alternando el turno entre ambos jugadores.
 
 En cualquier caso:
-- Tableros de tamaño 10 x 10
+- Tableros de tamaño 10 x 10.
 - Se generará de forma aleatoria un total de 6 barcos por jugador (3 barcos de tamaño 2, 2 barcos de tamaño 3 y 1 barco de tamaño 4) y los posicionará en el tablero correspondiente.
-- El turno se conserva hasta fallar el disparo
-- Hay un hueco de 1 casilla entre barcos
+- El turno se conserva hasta fallar el disparo.
+- Hay un hueco de 1 casilla entre barcos.
 
 ## 🛠️ Tecnologías y Prerrequisitos
 
